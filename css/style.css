@@ -1,0 +1,43 @@
+
+
+.materia {
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blueviolet;
+
+}
+
+.select {
+    margin-left: 2em;
+    padding: 0.75em;
+    border: solid 3px rgb(150, 134, 150);
+    background-color: #f3f6f688;
+}
+
+.formulario {
+    font-size: 0.85em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blueviolet;
+   
+}   
+
+input {
+    border: solid 0.2em blueviolet;
+    padding: 0.2em;
+    text-align: center;
+
+}
+
+table {
+    padding-top: 2em;
+}
+
+
+button {
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:blueviolet ;
+    background-color: aliceblue;
+    margin-top: 2em;
+
+}

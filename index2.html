@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <h1>Lançamento de notas</h1>
+    <div>
+        <label class="materia">Selecione a matéria</label>
+        <select class="select">
+            <option>Linguagem de programação</option>
+            <option>Introdução informatica</option>
+            <option>Programação computador</option>
+        </select>
+    </div>
+    
+    <form class="formulario" method="get" name="formulario">
+        <table>
+            <tr>
+                <th scope="col">Nome do Aluno</th>
+                <th scope="col">Prova 1</th>
+                <th scope="col">Prova 2</th>
+                <th scope="col">Exame</th>
+                <th scope="col">Media</th>
+                <th scope="col">Faltas</th>
+            </tr>
+               
+            <tr>
+                <!-- td representa cada celula da uma tabela -->
+                <th scope="row">Joana da silva:</th>
+                <td class="table"><input type="text"></td>
+                <td class="table2"><input type="text"></td>
+                <td id="media"><input type="text"></td>
+                <td<input type="text" disabled></td>
+                <td><input type="text"></td>
+                
+            </tr>
+                
+            
+            <tr> 
+                <th scope="row">Maria do Socorro</th>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text" name="" id="" disabled></td>
+                <td><input type="text"></td>
+            </tr>
+            
+            <tr> 
+                <th scope="row">Pedro Santos</th>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text" name="" id="" disabled></td>
+                <td><input type="text" /></td>
+            </tr>
+            
+        </table>
+        
+        <div>
+            <button onclick="calc">Salvar</button>
+            <button>Limpar</button>
+        </div>
+
+    
+    </form>
+    
+
+
+</body>
+</html>
